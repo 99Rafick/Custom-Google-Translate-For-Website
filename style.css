@@ -11,6 +11,8 @@
     --custom-translate-rounded: 4px;
     --custom-translate-outline-size: 1px;
     --custom-translate-outline-color: rgba(211, 211, 211, 0.4);
+    --custom-translate-background-color: white;
+    --custom-translate-text-color: black;
 }
 
 body {
@@ -37,6 +39,8 @@ body {
 .goog-te-gadget .goog-te-combo {
     min-width: var(--custom-translate-width)!important;
     margin: 0!important;
+    background-color: var(--custom-translate-background-color)!important;
+    color: var(--custom-translate-text-color)!important;
     height: var(--custom-translate-height)!important;
     -webkit-appearance: none;
     padding-left: var(--custom-translate-padding-X)!important;
