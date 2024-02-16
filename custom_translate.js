@@ -10,8 +10,3 @@ function googleTranslateElementInit() {
         'google_translate_element'
     );
 }
-
-document.addEventListener('DOMContentLoaded', function () {
-    const d = document.querySelector('.goog-te-combo')
-    console.log(d)
-})
